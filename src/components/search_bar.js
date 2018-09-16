@@ -12,7 +12,8 @@ class SearchBar extends Component{
 			<div className="search-bar">
 				<input 
 					value={this.state.term}
-					onChange={event => this.onInputChange(event.target.value)} autofocus placeholder="Search " />
+					className="form-control"
+					onChange={event => this.onInputChange(event.target.value)} placeholder="Search " />
 			</div>
 		);
 	}

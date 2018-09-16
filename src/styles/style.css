@@ -29,4 +29,7 @@
 .list-group-item:hover{
 	background-color: #eee;
 }
-
+ 
+.media-object{
+	margin-right: 10px;
+}
