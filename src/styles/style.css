@@ -1,5 +1,5 @@
 .search-bar{
-	margin:20px;
+	margin: 20px 0px;
 	text-align: center;
 }
 
@@ -10,6 +10,11 @@
 .video-item img{
 	max-width: 164px;
 	border: 4px solid black;
+}
+
+.video-title {
+	padding-top: 10px;
+	font-size: 18px;
 }
 
 .details{
@@ -29,7 +34,7 @@
 .list-group-item:hover{
 	background-color: #eee;
 }
- 
+
 .media-object{
 	margin-right: 10px;
 }
